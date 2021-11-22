@@ -1,131 +1,199 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>blackdensity</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-<!-- START PAGE SOURCE -->
-<div class="main">
-  <div class="header">
-    <div class="header_resize">
-      <div class="menu_nav">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="search">
-          <form id="form" name="form" method="post" action="#">
-            <span>
-            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
-            </span>
-            <input name="b" type="image" src="images/search.gif" class="button" />
-          </form>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Sample Post</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
-      <div class="clr"></div>
-      <div class="logo">
-        <h1><a href="index.html"><span>black</span>density </a><small>Simple web template</small></h1>
-      </div>
-      <div class="clr"></div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Clean Blog</h1>
+                        <hr class="small">
+                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Man must explore, and this is exploration at its greatest
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Problems look mighty small from 150 miles up
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                        </h2>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Science has not yet mastered prophecy
+                        </h2>
+                        <h3 class="post-subtitle">
+                            We predict too much for the next year and yet far too little for the next ten.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Failure is not an option
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
+                </div>
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="clr"></div>
-  <div class="content">
-    <div class="content_resize">
-      <div class="mainbar">
-        <div class="article">
-          <h2><span>Template License</span></h2>
-          <div class="clr"></div>
-          <p>Posted on 18. Sep, 2015 by Sara in Filed under templates, internet, with<a href="#"> Comments 18</a></p>
-          <img src="images/img_1.jpg" width="613" height="193" alt="" />
-          <div class="clr"></div>
-          <p>This is a free CSS website template by AtomicWebsiteTemplates.com. This work is distributed under the Creative Commons Attribution 3.0 License, which means that you are free to use it for any personal or commercial purpose provided the credit links in the template footer are left intact.</p>
-          <p>Maecenas dignissim mauris in arcu congue tincidunt. Vestibulum elit nunc, accumsan vitae faucibus vel, scelerisque a quam. Aenean at metus id elit bibendum faucibus. Curabitur ultrices ante nec neque consectetur a aliquet libero lobortis. Ut nibh sem, pellentesque in dictum eu, convallis blandit erat. Cras vehicula tellus nec purus sagittis id scelerisque risus congue. Quisque sed semper massa. Donec id lacus mauris, vitae pretium risus. Fusce sed tempor erat. </p>
-          <p class="link"><a href="#">Read more </a></p>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
         </div>
-        <div class="article">
-          <h2><span>Aliquam Risus</span> Justo</h2>
-          <div class="clr"></div>
-          <p>Posted on 18. Sep, 2015 by Sara in Filed under templates, internet, with <a href="#">Comments 18</a></p>
-          <img src="images/img_2.jpg" width="613" height="193" alt="" />
-          <div class="clr"></div>
-          <p>Pellentesque posuere enim et ipsum dignissim convallis. Proin quis molestie mauris. Nunc eget quam at nulla tempus tincidunt quis a mi. Aliquam ornare turpis non tellus molestie imperdiet. Phasellus sit amet neque vitae purus venenatis hendrerit. Phasellus non mi ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Aenean vel varius sapien. Etiam leo quam, sodales vel ullamcorper ut, viverra a risus.</p>
-          <p>Maecenas dignissim mauris in arcu congue tincidunt. Vestibulum elit nunc, accumsan vitae faucibus vel, scelerisque a quam. Aenean at metus id elit bibendum faucibus. Curabitur ultrices ante nec neque consectetur a aliquet libero lobortis. Ut nibh sem, pellentesque in dictum eu, convallis blandit erat. Cras vehicula tellus nec purus sagittis id scelerisque risus congue. Quisque sed semper massa. Donec id lacus mauris, vitae pretium risus. Fusce sed tempor erat. </p>
-          <p class="link"><a href="#">Read more </a></p>
-        </div>
-        <div class="article" style="padding:5px 20px 2px 20px; background:none; border:0;">
-          <p>Page 1 of 2 <span class="butons"><a href="#">3</a><a href="#">2</a> <a href="#" class="active">1</a></span></p>
-        </div>
-      </div>
-      <div class="sidebar">
-        <div class="gadget">
-          <h2>Sidebar Menu</h2>
-          <div class="clr"></div>
-          <ul class="sb_menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">TemplateInfo</a></li>
-            <li><a href="#">Style Demo</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Archives</a></li>
-          </ul>
-        </div>
-        <div class="gadget">
-          <h2><span>Sponsors</span></h2>
-          <div class="clr"></div>
-          <ul class="ex_menu">
-            <li><a href="#">Lorem ipsum dolor</a><br />
-              Donec libero. Suspendisse bibendum</li>
-            <li><a href="#">Dui pede condimentum</a><br />
-              Phasellus suscipit, leo a pharetra</li>
-            <li><a href="#">Condimentum lorem</a><br />
-              Tellus eleifend magna eget</li>
-            <li><a href="#">Fringilla velit magna</a><br />
-              Curabitur vel urna in tristique</li>
-            <li><a href="#">Suspendisse bibendum</a><br />
-              Cras id urna orbi tincidunt orci ac</li>
-            <li><a href="#">Donec mattis</a><br />
-              purus nec placerat bibendum</li>
-          </ul>
-        </div>
-        <div class="gadget">
-          <h2>Wise Words</h2>
-          <div class="clr"></div>
-          <p> <img src="images/test_1.gif" alt="" width="20" height="19" /> <em>We can let circumstances rule us, or we can take charge and rule our lives from within </em>.<img src="images/test_2.gif" alt="" width="20" height="19" /></p>
-          <p style="float:right;"><strong>Earl Nightingale</strong></p>
-        </div>
-      </div>
-      <div class="clr"></div>
-    </div>
-  </div>
-  <div class="fbg">
-    <div class="fbg_resize">
-      <div class="col c1">
-        <h2><span>Image Gallery</span></h2>
-        <a href="#"><img src="images/gallery_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_6.jpg" width="58" height="58" alt="" /></a> </div>
-      <div class="col c2">
-        <h2><span>Lorem Ipsum</span></h2>
-        <p>Lorem ipsum dolor<br />
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. <a href="#">Morbi tincidunt, orci ac convallis aliquam</a>, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
-      </div>
-      <div class="col c3">
-        <h2><span>Contact</span></h2>
-        <p>Nullam quam lorem, tristique non vestibulum nec, consectetur in risus. Aliquam a quam vel leo gravida gravida eu porttitor dui. Nulla pharetra, mauris vitae interdum dignissim, justo nunc suscipit ipsum. <a href="#">mail@example.com</a><br />
-          <a href="#">+1 (123) 444-5677</a></p>
-      </div>
-      <div class="clr"></div>
-    </div>
-    <div class="footer">
-      <p class="lr">Copyright &copy; 2010 <a href="#">SiteName</a> - All Rights Reserved</p>
-      <p class="lf"><a href="http://all-free-download.com/free-website-templates/">Free CSS Templates</a> by <a href="http://www.atomicwebsitetemplates.com/">Atomic Website Templates</a></p>
-      <div class="clr"></div>
-    </div>
-  </div>
-</div>
-<!-- END PAGE SOURCE -->
-<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
 </html>
